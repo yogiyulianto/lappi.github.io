@@ -1,0 +1,110 @@
+/* Styles for page */ 
+.navbar {
+	margin-bottom: 0; 
+	background-color: white;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+
+	color: #13CE66 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #fff !important;
+	background-color: #13CE66 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+
+}
+
+.jumbotron {
+	color: black;
+    background-size: cover;
+    background-image: url(../img/home.jpg);
+    width: 80%;
+    margin-top: 50px;
+}
+
+.thumbnail{
+    height: 300px;
+    background-size: auto;
+}
+
+
+.thumbnail p{
+	margin-top: 120px;
+	font-size: 18px;
+}
+.thumbnail:hover{
+	color: green;
+}
+
+.toggle{
+	margin-top: 40px;
+}
+.toggle-title{
+	color: #13CE66;
+	display: block;
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid #13CE66;
+
+}
+.toggle-inner{
+    font-family: Lato,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: lightblue;
+}
+
+
+.fa {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: #068D67;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: #068D67;
+}
+.fa-instagram {
+    background: white;
+    color: #068D67;
+}
+
+/* Twitter */
+.fa-youtube {
+    background: white;
+    color: #068D67;
+}
+.fa-chevron-circle-right{
+
+    color: #068D67;
+}

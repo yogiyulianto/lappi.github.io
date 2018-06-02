@@ -1,0 +1,61 @@
+body{
+	background-color: #FDFDFD;
+}
+
+
+
+.fa {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #068D67;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: #068D67;
+}
+.fa-instagram {
+    background: white;
+    color: #068D67;
+}
+
+/* Twitter */
+.fa-youtube {
+    background: white;
+    color: #068D67;
+}
+.fa-chevron-circle-right{
+
+    color: #068D67;
+}
+
+.md-button {
+  color : currentColor;
+}
+
+.md-button:not([disabled]):hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.md-button[disabled] {
+  color : rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
